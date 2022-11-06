@@ -1,0 +1,35 @@
+.tableContainer {
+    overflow-x: auto;
+}
+
+.table {
+    font-size: 15px;
+    color: black;
+    background-color: #cfdef0;
+    font-family: "Roboto";
+    font-style: italic;
+    border-collapse: collapse;
+    border: 5px solid rgb(13, 13, 13);
+    margin: 20px auto;
+    box-sizing: border-box;
+    text-shadow: 1px 1px rgb(207, 204, 204);
+    box-shadow: 23px 27px 24px -24px rgb(150, 150, 150);
+}
+
+.table__cell {
+    border: 2px solid rgb(13, 13, 13);
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table__cell--header {
+    background-color: rgb(20, 147, 220);
+    border: 2px solid rgb(13, 13, 13);
+    color: white;
+    font-weight: normal;
+}
+
+.table__row:hover {
+    background: rgb(153, 177, 225);
+}

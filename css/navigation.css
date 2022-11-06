@@ -1,0 +1,51 @@
+.navigation {
+    border: 1px solid rgb(16, 15, 15);
+    color: black;
+    font-style: italic;
+    margin: auto;
+    box-sizing: border-box;
+    background-color: rgb(179, 177, 177);
+    max-width: 250px;
+    outline-width: 5px;
+    outline-style: solid;
+    outline-color: rgb(0, 0, 0);
+    border-width: 5px 10px;
+    border-style: inset;
+    border-color: rgb(149, 172, 252);
+    border-radius: 20px 4px 20px/30px 10px;
+    box-shadow: 23px 27px 24px -16px rgb(150, 150, 150);
+}
+
+.navigation__list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.navigation__item {
+    margin: 5px;
+}
+
+.navigation__link {
+    color: white;
+    font-size: 12px;
+    font-style: italic;
+    background-color: rgb(67, 67, 67);
+    outline-width: 3px;
+    outline-style: solid;
+    outline-color: rgb(0, 0, 0);
+    border: 2px solid black;
+    border-width: 5px 10px;
+    border-style: inset;
+    border-color: rgb(14, 117, 172);
+    border-radius: 20px 4px 20px/30px 10px;
+    text-decoration: none;
+}
+
+.navigation__link:focus {
+    outline: 2px solid black;
+}
+
+.navigation__link:hover {
+    background-color: rgb(121, 123, 129);
+    outline: none;
+}
