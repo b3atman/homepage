@@ -1,4 +1,4 @@
-console.log("Witam Panowie i Panie!");
+console.log("Witam Panowie i Panie! Ten kod jest już w repozytorium Git.");
 
 let hidefoto = document.querySelector(".hidefoto");
 let body = document.querySelector(".body");
