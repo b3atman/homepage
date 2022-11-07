@@ -8,35 +8,19 @@
     padding: 0 20px;
 }
 
-.header {
-  color: #8d3030;
+.container {
+    background-color: rgb(192, 185, 185);
+    overflow-x: auto;
 }
 
-.image {
-    vertical-align: 20px;
-    border-radius: 20px;
-    border: 1px dotted black;
+.header {
+  color: #8d3030;
 }
 
 .grey {
     background: linear-gradient(25deg, rgba(255, 255, 255, 0.733), darkgrey);
 }
 
-.container {
-    background-color: rgb(192, 185, 185);
-    overflow-x: auto;
-}
-
 .hidden {
     display: none;
-}
-
-.unorderedlist {
-    text-indent: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
-.unorderedlist_item {
-  text-decoration: none;
 }

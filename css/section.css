@@ -1,0 +1,84 @@
+.section__image {
+    vertical-align: 20px;
+    border-radius: 20px;
+    border: 1px dotted black;
+}
+
+.section__subHeader {
+    color: black;
+    font-size: 20px;
+    font-style: italic;
+    margin: auto;
+    background-color: rgb(179, 177, 177);
+    max-width: 250px;
+    outline-width: 5px;
+    outline-style: solid;
+    outline-color: rgb(0, 0, 0);
+    border: 2px solid black;
+    border-width: 5px 10px;
+    border-style: inset;
+    border-color: rgb(149, 172, 252);
+    border-radius: 20px 4px 20px/30px 10px;
+    text-shadow: 3px 2px darkgrey;
+    box-shadow: 23px 27px 24px -16px rgb(150, 150, 150);
+}
+
+.section__paragraph-centered {
+    text-align: center;
+}
+
+.section__paragraph {
+    font-size: 16px;
+    text-align: left;
+    background-color: #cfdef0;
+    color: #000000cc;
+    padding: 5px;
+    margin: 20px auto;
+    border: 2px dotted black;
+    border-radius: 20px 15px;
+    box-shadow: 23px 27px 24px -24px rgb(150, 150, 150);
+    text-shadow: 1px 1px rgb(198, 198, 198);
+}
+
+.section__link {
+    background-color: rgb(86, 88, 194);
+    color: white;
+    padding: 2px 5px;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.section__link:visited {
+    background-color: rgb(34, 27, 110);
+}
+
+.section__link:focus {
+    outline: 2px solid black;
+}
+
+.section__link:hover {
+    background-color: rgb(121, 123, 129);
+    outline: none;
+}
+
+.section__link:active {
+    background-color: rgb(34, 27, 110);
+}
+
+.section__paragraph--bold {
+    color: darkblue;
+}
+
+.section__paragraph--work {
+    color: #a40f0ffe;
+}
+
+.section__unorderedList {
+    text-indent: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.section__item {
+  text-decoration: none;
+}

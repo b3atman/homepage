@@ -13,7 +13,7 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/container.css" rel="stylesheet">
     <link href="css/navigation.css" rel="stylesheet">
-    <link href="css/subheader.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
     <link href="css/table.css" rel="stylesheet">
     <script defer src="js/script.js"></script>
     <link
@@ -44,72 +44,70 @@
             </li>
         </ul>
     </nav>
-    <p>
-        <button class="changeBackground">Włącz <span class="themeName">szary</span> motyw</button>
+    <p class="section__paragraph--centered">
+        <button class="section__button js-changeBackgroundButton">Włącz <span
+                class="nextColorName js-nextColorName">szary</span>
+            motyw</button>
     </p>
-    <p>
-        <button class="hidefoto"><span class="imageSwitch">Wyłącz</span> zdjęcie</button>
+    <p class="section__paragraph-centered">
+        <button class="section__button js-hideFoto"><span class="imageSwitch js-imageSwitch">Wyłącz</span>
+            zdjęcie</button>
     </p>
-    <img class="image" width="200" height="200"
+    <img class="section__image js-image" width="200" height="200"
         src="https://media-exp1.licdn.com/dms/image/C4E03AQHpmrhJ_a8vSw/profile-displayphoto-shrink_200_200/0/1555347602572?e=1669248000&v=beta&t=Y1gwGjtkcpll8c_utMniZ0k-nGaS3v3Md4segMapB7k"
         alt="Hubert">
     <main>
-        <section id="about-me">
-            <h2 class="subheader">Krótko o mnie</h2>
-            <div class="subheader__content">
-                <p>Absolwent finansów i rachunkowości Uniwersytetu Ekonomicznego w Poznaniu (rocznik
-                    2016; specjalizacja: finanse i rachunkowość przedsiębiorstw). Ostatni rok stażu
-                    zawodowego w firmie branży e-commerce na stanowisku <span class="subheader__content--work">Analityk
-                        E-commerce</span>. W wolnych chwilach biegacz-amator
-                    oraz jazda na rowerze.</p>
-                <p>Codzienna praca na <em>Excelu</em>, wykorzystywane narzędzia typu <em>Symfonia
-                        Handel, Magento,
-                        Amazon Vendor
-                        Central.</em>
-                </p>
-            </div>
+        <section id="about-me" class="section">
+            <h2 class="section__subHeader">Krótko o mnie</h2>
+            <p class="section__paragraph">
+                Absolwent finansów i rachunkowości Uniwersytetu Ekonomicznego w Poznaniu (rocznik
+                2016; specjalizacja: finanse i rachunkowość przedsiębiorstw). Ostatni rok stażu
+                zawodowego w firmie branży e-commerce na stanowisku <span class="section__paragraph--work">Analityk
+                    E-commerce</span>. W wolnych chwilach biegacz-amator
+                oraz jazda na rowerze.
+                <br>Codzienna praca na <em>Excelu</em>, wykorzystywane narzędzia typu <em>Symfonia
+                    Handel, Magento,
+                    Amazon Vendor
+                    Central.</em>
+            </p>
         </section>
-        <section id="interesting">
-            <h2 class="subheader">Zainteresowania</h2>
-            <div class="subheader__content">
-                <p>- <strong class="subheader__content--bold">Bieganie</strong> (startuję zarówno w biegach ulicznych,
-                    jak i w biegach
-                    przeszkodowych;
-                    ukończone dwa półmaratony).
-                    <br>- <strong class="subheader__content--bold">Jazda na rowerze</strong> (tutaj bez żadnych startów,
-                    typowo rekreacyjnie).
-                    <br>- <strong class="subheader__content--bold">Sport</strong> (piłka nożna, piłka ręczna, tenis
-                    ziemny, snooker).
-                    <br>- <strong class="subheader__content--bold">Filmy</strong> (komedie, sensacyjne, thrillery).
-                </p>
-                <p> Dzisiaj jest <span class="day">
-                        <strong class="subheader__content--bold">piątek</strong></span>, więc
-                    po pracy będę
-                    <strong class="subheader__content--bold">
-                        <span class="whichActivity"></strong></span>
-                </p>
-            </div>
+        <section id="interesting" class="section">
+            <h2 class="section__subHeader">Zainteresowania</h2>
+            <p class="section__paragraph">
+                - <strong class="section__paragraph--bold">Bieganie</strong> (startuję zarówno w biegach ulicznych,
+                jak i w biegach
+                przeszkodowych;
+                ukończone dwa półmaratony).
+                <br>- <strong class="section__paragraph--bold">Jazda na rowerze</strong> (tutaj bez żadnych startów,
+                typowo rekreacyjnie).
+                <br>- <strong class="section__paragraph--bold">Sport</strong> (piłka nożna, piłka ręczna, tenis
+                ziemny, snooker).
+                <br>- <strong class="section__paragraph--bold">Filmy</strong> (komedie, sensacyjne, thrillery).
+                <br> Dzisiaj jest <span class="day">
+                    <strong class="section__paragraph--bold">poniedziałek</strong></span>, więc
+                po pracy będę
+                <strong class="section__paragraph--bold">
+                    <span class="whichActivity"></span></strong>
+            </p>
         </section>
-        <section id="volunteering">
-            <h2 class="subheader">Wolontariat</h2>
-            <div class="subheader__content">
-                <p>Od 2013 roku związany z programem społecznym <strong class="subheader__content--bold">Szlachetna
-                        Paczka</strong>,
-                    realizowanym przez
-                    <em>Stowarzyszenie WIOSNA.</em> W latach 2013-2020 jako wolontariusz, który odwiedza rodziny
-                    włączone
-                    do
-                    programu, koordynuje pracę darczyńców oraz współorganizuje grudniowy <strong
-                        class="subheader__content--bold">Weekend Cudów.</strong>
-                </p>
-                <p>Ponadto w latach 2016-2018 jako Koordynator Regionalny, odpowiedzialny za rekrutację
-                    i koordynację pracy
-                    liderów rejonów oraz organizację cyklicznych spotkań operacyjnych w ramach regionu.
-                </p>
-            </div>
+        <section id="volunteering" class="section">
+            <h2 class="section__subHeader">Wolontariat</h2>
+            <p class="section__paragraph">
+                Od 2013 roku związany z programem społecznym <strong class="section__paragraph--bold">Szlachetna
+                    Paczka</strong>,
+                realizowanym przez
+                <em>Stowarzyszenie WIOSNA.</em> W latach 2013-2020 jako wolontariusz, który odwiedza rodziny
+                włączone
+                do
+                programu, koordynuje pracę darczyńców oraz współorganizuje grudniowy <strong
+                    class="section__paragraph--bold">Weekend Cudów.</strong>
+                <br>Ponadto w latach 2016-2018 jako Koordynator Regionalny, odpowiedzialny za rekrutację
+                i koordynację pracy
+                liderów rejonów oraz organizację cyklicznych spotkań operacyjnych w ramach regionu.
+            </p>
         </section>
-        <section id="my-favourite-songs">
-            <h2 class="subheader">Moje ulubione piosenki</h2>
+        <section id="my-favourite-songs" class="section">
+            <h2 class="section__subHeader">Moje ulubione piosenki</h2>
             <div class="tableContainer">
                 <table class="table">
                     <thead>
@@ -149,39 +147,37 @@
                     </tbody>
                 </table>
                 <p>Dowiedz się więcej o w/w zespołach:</p>
-                <ul class="unorderedlist">
-                    <li class="unorderedlist__item">&#10148;
+                <ul class="section__unorderedList">
+                    <li class="section__item">&#10148;
                         <a rel="noopener noreferrer" target="_blank" href="https://pl.wikipedia.org/wiki/Linkin_Park"
                             title="Artykuł na Wikipedii o Linkin Park">Linkin Park
                         </a>
                     </li>
-                    <li class="unorderedlist__item">&#10148;
+                    <li class="section__item">&#10148;
                         <a rel="noopener noreferrer" target="_blank" href="https://pl.wikipedia.org/wiki/Limp_Bizkit"
                             title="Artykuł na Wikipedii o Limp Bizkit">Limp
                             Bizkit</a>
                     </li>
-                    <li class="unorderedlist__item">&#10148;
+                    <li class="section__item">&#10148;
                         <a rel="noopener noreferrer" target="_blank" href="https://pl.wikipedia.org/wiki/Oasis"
                             title="Artykuł na Wikipedii o Oasis">Oasis</a>
                     </li>
                 </ul>
             </div>
         </section>
-        <section id="links">
-            <h2 class="subheader">Linki</h2>
-            <div class="subheader__content">
-                <p>
-                    <a class="subheader__link" href="https://www.linkedin.com/in/hubert-ludwiczak-98b96a184/"
-                        target="_blank" rel="noopener noreferrer" title="Wejdź na mój profil LinkedIn">Mój profil na
-                        LinkedIn</a>
-                    <br>
-                    <a class="subheader__link" href="mailto:ludwiczakhubert@gmail.com" title="Wyślij mail do mnie">Mój
-                        adres
-                        mailowy</a>
-                    <br>
-                    <a class="subheader__link" href="tel:+48.793525204" title="Zadzwoń do mnie">Mój numer telefonu</a>
-                </p>
-            </div>
+        <section id="links" class="section">
+            <h2 class="section__subHeader">Linki</h2>
+            <p class="section__paragraph">
+                <a class="section__link" href="https://www.linkedin.com/in/hubert-ludwiczak-98b96a184/" target="_blank"
+                    rel="noopener noreferrer" title="Wejdź na mój profil LinkedIn">Mój profil na
+                    LinkedIn</a>
+                <br>
+                <a class="section__link" href="mailto:ludwiczakhubert@gmail.com" title="Wyślij mail do mnie">Mój
+                    adres
+                    mailowy</a>
+                <br>
+                <a class="section__link" href="tel:+48.793525204" title="Zadzwoń do mnie">Mój numer telefonu</a>
+            </p>
         </section>
     </main>
     <!-- Below information about Copyright -->

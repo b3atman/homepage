@@ -1,22 +1,22 @@
 console.log("Witam Panowie i Panie! Ten kod jest już w repozytorium Git.");
 
-let hidefoto = document.querySelector(".hidefoto");
-let body = document.querySelector(".body");
-let image = document.querySelector(".image");
-let themeName = document.querySelector(".themeName");
-let imageSwitch = document.querySelector(".imageSwitch");
-let changeBackground = document.querySelector(".changeBackground");
+let hideFoto = document.querySelector(".js-hideFoto");
+let body = document.querySelector(".body")
+let image = document.querySelector(".js-image");
+let nextColorName = document.querySelector(".js-nextColorName");
+let imageSwitch = document.querySelector(".js-imageSwitch");
+let changeBackgroundButton = document.querySelector(".js-changeBackgroundButton");
 
-hidefoto.addEventListener("click", () => {
+hideFoto.addEventListener("click", () => {
     image.classList.toggle("hidden");
 
     imageSwitch.innerText = image.classList.contains("hidden") ? "Włącz" : "Wyłącz";
 });
 
-changeBackground.addEventListener("click", () => {
+changeBackgroundButton.addEventListener("click", () => {
     body.classList.toggle("grey");
 
-    themeName.innerText = body.classList.contains("grey") ? "biały" : "szary";
+    nextColorName.innerText = body.classList.contains("grey") ? "biały" : "szary";
 });
 
 if (image.classList.contains("hidden")) {
