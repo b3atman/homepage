@@ -23,10 +23,6 @@
     box-shadow: 23px 27px 24px -16px rgb(150, 150, 150);
 }
 
-.section__paragraph-centered {
-    text-align: center;
-}
-
 .section__paragraph {
     font-size: 16px;
     text-align: left;
@@ -38,6 +34,18 @@
     border-radius: 20px 15px;
     box-shadow: 23px 27px 24px -24px rgb(150, 150, 150);
     text-shadow: 1px 1px rgb(198, 198, 198);
+}
+
+.section__paragraph-centered {
+    text-align: center;
+}
+
+.section__paragraph--bold {
+    color: darkblue;
+}
+
+.section__paragraph--work {
+    color: #a40f0ffe;
 }
 
 .section__link {
@@ -63,14 +71,6 @@
 
 .section__link:active {
     background-color: rgb(34, 27, 110);
-}
-
-.section__paragraph--bold {
-    color: darkblue;
-}
-
-.section__paragraph--work {
-    color: #a40f0ffe;
 }
 
 .section__unorderedList {
