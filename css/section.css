@@ -1,5 +1,8 @@
+.section {
+    padding-top: 20px;
+}
+
 .section__image {
-    vertical-align: 20px;
     border-radius: 20px;
     border: 1px dotted black;
 }
