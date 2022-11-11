@@ -6,6 +6,14 @@
 
 https://b3atman.github.io/homepage/
 
-## Opis
+## Description
 
-Moja pierwsza strona, na której zawarłem krótkie informacje o sobie, swoich zainteresowaniach, działalności w wolontariacie.
+My own page, where I provided brief information about myself, my interests and volunteering.
+
+## Technologies
+- HTML
+- CSS
+- Javascript
+- BEM convention
+- Normalize.css
+- Open Graph Protocol
