@@ -1,4 +1,4 @@
-# Hubert Ludwiczak - moja strona
+# Hubert Ludwiczak - my page
 
 ![Hubert Ludwiczak](Images/Hubert.jpg)
 
