@@ -1,23 +1,57 @@
-console.log("Witam Panowie i Panie! Ten kod jest już w repozytorium Git.");
+{
+    const welcome = () => {
+        console.log("Witam Panowie i Panie! Ten kod jest już w repozytorium Git.");
+    };
 
-let hideFoto = document.querySelector(".js-hideFoto");
-let body = document.querySelector(".body")
-let image = document.querySelector(".js-image");
-let nextColorName = document.querySelector(".js-nextColorName");
-let imageSwitch = document.querySelector(".js-imageSwitch");
-let changeBackgroundButton = document.querySelector(".js-changeBackgroundButton");
+    const toggleBackground = () => {
+        const body = document.querySelector(".body");
+        const nextColorName = document.querySelector(".js-nextColorName");
 
-hideFoto.addEventListener("click", () => {
-    image.classList.toggle("hidden");
+        body.classList.toggle("grey");
+        nextColorName.innerText = body.classList.contains("grey") ? "biały" : "szary";
+    };
 
-    imageSwitch.innerText = image.classList.contains("hidden") ? "Włącz" : "Wyłącz";
-});
+    const init = () => {
+        const changeBackgroundButton = document.querySelector(".js-changeBackgroundButton");
+        changeBackgroundButton.addEventListener("click", toggleBackground);
 
-changeBackgroundButton.addEventListener("click", () => {
-    body.classList.toggle("grey");
+        welcome();
+    };
 
-    nextColorName.innerText = body.classList.contains("grey") ? "biały" : "szary";
-});
+    init();
+
+    const changeFoto = () => {
+        const image = document.querySelector(".js-image");
+        const imageSwitch = document.querySelector(".js-imageSwitch");
+
+        image.classList.toggle("hidden");
+        imageSwitch.innerText = image.classList.contains("hidden") ? "Włącz" : "Wyłącz";
+    }
+    const initFoto = () => {
+        const hideFoto = document.querySelector(".js-hideFoto");
+        hideFoto.addEventListener("click", changeFoto);
+    }
+
+    initFoto();
+
+    const day = document.querySelector(".day").innerText;
+    const whichActivity = document.querySelector(".whichActivity");
+
+    switch (day) {
+        case "poniedziałek":
+        case "środa":
+            whichActivity.innerText = "biegał po lesie.";
+            break;
+
+        case "wtorek":
+        case "czwartek":
+            whichActivity.innerText = "jeździł rowerem po mieście.";
+            break;
+
+        default:
+            whichActivity.innerText = "oglądał film na Netflixie.";
+    }
+}
 
 if (image.classList.contains("hidden")) {
     console.log("Zdjęcie jest ukryte")
@@ -29,24 +63,6 @@ if (body.classList.contains("grey")) {
     console.log("Jest szary motyw")
 } else {
     console.log("Jest biały motyw")
-}
-
-let day = document.querySelector(".day").innerText;
-let whichActivity = document.querySelector(".whichActivity");
-
-switch (day) {
-    case "poniedziałek":
-    case "środa":
-        whichActivity.innerText = "biegał po lesie.";
-        break;
-
-    case "wtorek":
-    case "czwartek":
-        whichActivity.innerText = "jeździł rowerem po mieście.";
-        break;
-
-    default:
-        whichActivity.innerText = "oglądał film na Netflixie.";
 }
 
 if (day === "poniedziałek") {
