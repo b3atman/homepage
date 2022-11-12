@@ -80,8 +80,13 @@
     text-indent: 0;
     padding: 0;
     list-style-type: none;
+    color: white;
 }
 
 .section__item {
   text-decoration: none;
+}
+
+.section__item--highlighted {
+    color: white;
 }

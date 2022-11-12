@@ -6,6 +6,10 @@
     text-align: center;
     margin: 0 auto;
     padding: 0 20px;
+    background-image: url("../Images/landscape.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .container {
@@ -14,11 +18,11 @@
 }
 
 .header {
-  color: #8d3030;
+  color: #ff0000;
 }
 
 .grey {
-    background: linear-gradient(25deg, rgba(255, 255, 255, 0.733), darkgrey);
+    background: darkgrey;
 }
 
 .hidden {
