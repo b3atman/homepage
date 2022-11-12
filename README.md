@@ -1,6 +1,6 @@
 # Hubert Ludwiczak - my page
 
-![Hubert Ludwiczak](Images/Hubert.jpg)
+![Hubert Ludwiczak](Images/share.png)
 
 ## Demo
 
