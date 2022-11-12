@@ -8,7 +8,7 @@
         const nextColorName = document.querySelector(".js-nextColorName");
 
         body.classList.toggle("grey");
-        nextColorName.innerText = body.classList.contains("grey") ? "biały" : "szary";
+        nextColorName.innerText = body.classList.contains("grey") ? "górski" : "szary";
     };
 
     const init = () => {
@@ -62,7 +62,7 @@ if (image.classList.contains("hidden")) {
 if (body.classList.contains("grey")) {
     console.log("Jest szary motyw")
 } else {
-    console.log("Jest biały motyw")
+    console.log("Jest górski motyw")
 }
 
 if (day === "poniedziałek") {
