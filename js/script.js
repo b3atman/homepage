@@ -33,7 +33,9 @@
     }
 
     initFoto();
+}
 
+{
     const day = document.querySelector(".day").innerText;
     const whichActivity = document.querySelector(".whichActivity");
 
