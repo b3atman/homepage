@@ -83,10 +83,7 @@
     color: white;
 }
 
-.section__item {
-  text-decoration: none;
-}
-
 .section__item--highlighted {
     color: white;
+    text-decoration: none;
 }
